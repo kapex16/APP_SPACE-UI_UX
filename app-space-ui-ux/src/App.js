@@ -1,11 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
 
+import BodyCompoent from '../src/Body/BodyComponent/Body'
+import {ThemeProvider} from '@material-ui/core/styles'
+import theme from './ThemeConfig';
 function App() {
   return (
-    <div className="App">
-      <p></p>
-    </div>
+    <ThemeProvider theme={theme}>
+   
+      <BodyCompoent/>
+   
+    </ThemeProvider>
   );
 }
 
