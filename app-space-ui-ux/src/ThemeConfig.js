@@ -8,8 +8,10 @@ const theme= createTheme({
             dark:'#7b1fa2',
             contrastText:'#fff'
 
-        }
+        },
+        
     }
+    
 
 })
 
