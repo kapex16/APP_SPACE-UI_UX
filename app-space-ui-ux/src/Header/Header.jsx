@@ -1,3 +1,4 @@
+
 import {
   AppBar,
   Typography,
@@ -6,19 +7,19 @@ import {
   
 } from "@material-ui/core";
 
+
 import { AccountCircle } from "@material-ui/icons";
 import Logo from "../asset/LOGO.png";
-import useSteyles from '../Header/Style'
-
-
+import useSteyles from "../Header/Style";
 
 const MenuSpaceBar = () => {
   const classes = useSteyles();
 
   return (
-    <div>
+    
       <AppBar position="fixed" className={classes.LogoConatiner}>
         <Toolbar>
+
             <div className={classes.ogoStelyContainer}>
               <img 
               className={classes.LogoStyle}
@@ -44,10 +45,10 @@ const MenuSpaceBar = () => {
              <AccountCircle className={classes.AccountStyle}/>
             </div >
         
-   
+
         </Toolbar>
       </AppBar>
-    </div>
+    
   );
 };
 export default MenuSpaceBar;
