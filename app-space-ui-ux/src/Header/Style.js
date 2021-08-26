@@ -152,13 +152,12 @@ import {makeStyles,
             display: 'flex',
             flexDirection: 'row',
             alignItems: 'center',
-            
             padding: '0px',
 
             position: 'static',
             width: '232px',
             height: '18px',
-            left: '950px',
+            left: '0px',
             top: '8px',
 
 
@@ -194,7 +193,7 @@ import {makeStyles,
         flex: 'none',
         order: '0',
         flexGrow:' 0',
-        margin: '0px 51px',
+        margin: '0px 24px',
 
     },
     ContainerMenuRight:{
