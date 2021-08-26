@@ -4,11 +4,13 @@ import {ThemeProvider} from '@material-ui/core/styles'
 import theme from './ThemeConfig';
 function App() {
   return (
+
     <ThemeProvider theme={theme}>
    
       <BodyCompoent/>
    
     </ThemeProvider>
+
   );
 }
 
