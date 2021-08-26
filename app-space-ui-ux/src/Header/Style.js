@@ -1,4 +1,5 @@
 import {makeStyles,
+
   } from "@material-ui/core";
 
 
@@ -6,7 +7,13 @@ import {makeStyles,
     LogoConatiner: {
       display: "flex",
       flexDirection: "row",
-      justifyContent: "space-between",
+      background: "rgba(23, 23, 40, 0.36)",
+
+  
+     
+    },
+    LogoStelyContainer:{
+      justifyContent: "flex-end",
       alignItems: "center",
       padding: "12px 17px",
   
@@ -15,14 +22,13 @@ import {makeStyles,
       left: "0px",
       right: "0px",
       top: "0px",
-  
-      background: "rgba(23, 23, 40, 0.36)",
+
     },
     LogoStyle:{
         /* LOGO */
   
           /* Auto Layout */
-          /*display: 'flex',*/
+          display: 'flex',
           flexDirection: 'row',
           justifyContent: 'center',
           alignItems: 'center',
@@ -38,12 +44,12 @@ import {makeStyles,
           flex: 'none',
           order: '0',
           flexGrow: '0',
-          margin: '-10px 18px',
+          margin: '-10px 10px',
     },
     AccountStyle:{
         /* BOTON USER */
   
-  
+        justifyContent:'space-between',
           position: 'static',
           width: '34px',
           height: '34px',
@@ -133,7 +139,7 @@ import {makeStyles,
         /* Inside Auto Layout */
 
         flex: 'none',
-        order: '2',
+        order: '1',
         flexGrow: '0',
         margin: '0px 24px',
     },
@@ -158,7 +164,7 @@ import {makeStyles,
             /* Inside Auto Layout */
 
             flex: 'none',
-            order: '0',
+           
             flexGrow: '0',
             margin: '0px 24px',
 
@@ -214,7 +220,7 @@ import {makeStyles,
             flex: 'none',
             order: '1',
             flexGrow: '0',
-            margin: '0px 10px',
+            margin: '0px 1289px',
     }
 
   });
