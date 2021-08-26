@@ -44,10 +44,7 @@ const MenuSpaceBar = () => {
              <AccountCircle className={classes.AccountStyle}/>
             </div >
         
-           
-         
-         
-
+   
         </Toolbar>
       </AppBar>
     </div>
