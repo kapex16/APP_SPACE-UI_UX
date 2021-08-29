@@ -1,0 +1,51 @@
+.card-image {
+    width: 18.5rem;
+    height: 12.25rem;
+    border-radius: 8px;
+}
+
+.card-container {
+    display: flex;
+    width: 50%;
+    height: 12rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.card-text {
+    width: 17.5rem;
+    height: 11.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 2rem;
+}
+
+.card-title {
+    color: #333333;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.card-subtitle {
+    color: #a2a2a2;
+    ;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.875rem;
+    margin-top: 2px;
+}
+
+.card-paragraph {
+    color: #333333;
+    ;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.875rem;
+    margin-top: 1rem;
+}
