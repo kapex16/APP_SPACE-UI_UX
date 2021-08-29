@@ -1,0 +1,53 @@
+.history-card{
+    width: 24rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.7rem;
+}
+
+.history-img{
+    height: 18rem;
+    width: 24rem;
+}
+
+.history-title{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.125rem;
+    line-height: 1.437rem;
+    color: #333333;
+    margin-top: 0.9rem;
+    margin-bottom: 0.3rem;
+}
+
+.history-subtitle{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #A2A2A2;
+    margin-bottom: 0.6rem;
+}
+
+.history-text{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: rgba(51, 51, 51, 0.8);
+    margin-bottom: 0.7rem;
+}
+
+.history-link{
+    font-weight: 700;
+    font-style:normal;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    color: #333333;
+    margin-bottom: 0.3rem;
+    text-decoration: none;
+    margin-right: 1.3rem;
+}
+
+.link-block{
+    display: flex;
+}
